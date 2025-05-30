@@ -1,0 +1,53 @@
+'''break statement
+The break statement enables a program to skip over a part of the code. A break statement terminates the very loop it lies within.
+
+example
+for i in range(1,101,1):
+    print(i ,end=" ")
+    if(i==50):
+        break
+    else:
+        print("Mississippi")
+print("Thank you")
+output
+1 Mississippi
+2 Mississippi
+3 Mississippi
+4 Mississippi
+5 Mississippi
+.
+.
+.
+50 Mississippi'''
+
+'''Continue Statement
+The continue statement skips the rest of the loop statements and causes the next iteration to occur.
+
+example
+for i in [2,3,4,6,8,0]:
+    if (i%2!=0):
+        continue
+    print(i)
+output
+2
+4
+6
+8
+0'''
+# x = 6;
+# while(x>0):
+#      print(x);
+#      if(x==6):
+#          print("6 is here brothe . ");
+#          break;
+#         #  continue;
+#      else:
+#          print("Not reached till 6 yet . ");
+#          break;
+for i in range(1,10):
+    print(i);
+    
+    if(i==11):
+        break;
+    else:
+        continue;
